@@ -1,0 +1,21 @@
+# Pastas de dependências (Não subir)
+node_modules/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Cache e arquivos de sistema
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# Banco de Dados (Não subir o banco local)
+*.db
+*.sqlite3
+
+# Variáveis de ambiente (Dados sensíveis - NUNCA subir)
+.env
+.env.local
